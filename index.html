@@ -6,7 +6,72 @@
  <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <header><h1>Moja Wizytówka - Portfolio</h1></header>
- <main>Moja wizytówka...</main>
+ <header class="hero">
+  <h1>Jan Kowalski</h1>
+  <p>Frontend Developer / UI Designer</p>
+
+  <a href="#projekty">Moje projekty</a>
+  <a href="#kontakt">Kontakt</a>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#omnie">O mnie</a></li>
+    <li><a href="#skills">Umiejętności</a></li>
+    <li><a href="#projekty">Projekty</a></li>
+    <li><a href="#kontakt">Kontakt</a></li>
+  </ul>
+</nav>
+
+<section id="omnie">
+  <h2>O mnie</h2>
+
+  <p>
+    Jestem frontend developerem tworzącym nowoczesne
+    aplikacje internetowe.
+  </p>
+</section>
+
+<section id="skills">
+  <h2>Umiejętności</h2>
+
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>React</li>
+  </ul>
+</section>
+
+<section id="projekty">
+  <h2>Moje projekty</h2>
+
+  <article>
+    <h3>Sklep internetowy</h3>
+    <p>Aplikacja ecommerce wykonana w React.</p>
+  </article>
+
+  <article>
+    <h3>Weather App</h3>
+    <p>Aplikacja pogodowa korzystająca z API.</p>
+  </article>
+</section>
+
+<section id="kontakt">
+  <h2>Kontakt</h2>
+
+  <form>
+    <input type="text" placeholder="Imię">
+    <input type="email" placeholder="Email">
+    <textarea placeholder="Wiadomość"></textarea>
+
+    <button type="submit">Wyślij</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Jan Kowalski</p>
+</footer>
+
 </body>
 </html>
